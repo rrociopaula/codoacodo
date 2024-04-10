@@ -1,0 +1,31 @@
+/* 200 px */
+.contenedor{
+    border:2px solid black;
+}
+
+/* 2 inch (pulgadas) */
+.pixeles{
+    width: 200px;
+}
+
+/* 10 cm */
+.centimetros{
+    width: 10cm;
+}
+
+/* 10 em */
+.segunEm{
+    width: 10em;
+
+}
+
+/* 10 rem */
+.segunRem{
+    width: 10rem;
+
+}
+/* 10 % */
+.segunPorcentaje{
+    width: 10%;
+
+}
