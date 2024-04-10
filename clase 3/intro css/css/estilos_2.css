@@ -1,0 +1,23 @@
+/*los archivos se leen de arriba hacia abajo, de izq a derecha, entonces por mas que yo ponga un selector universal "*" hay cierta jerarquía que sigue css para aplicar el codigo. Si tengo dos iguales, sigue el  último pues es "cascada" */
+
+/*selector universal*/
+
+*{
+    background-color: black;
+    color: whitesmoke;
+}
+
+h2{
+    color:greenyellow
+}
+
+/*selector de clase: .nombreDeLaClase*/
+.parrafoDistinto{
+    border:1px solid white;
+    color: red
+}
+
+/*selector de identificador: #nombreDelId*/
+#parrafoUnico{
+    background-color: blue;   
+}
